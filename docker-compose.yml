@@ -1,0 +1,8 @@
+services:
+  server:
+    build: .
+    ports:
+      - "12345:12345"
+    volumes:
+      - .:/app
+    tty: true
